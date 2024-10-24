@@ -1,0 +1,44 @@
+a{
+    text-decoration: dashed underline #018de7;
+    color: #018de7;
+}
+
+.header__media{
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    float: right;
+}
+
+header{
+    font-family: "Merge Pro Bold"; 
+}
+
+.header__menu{
+    margin-top: 100px;
+    list-style-type: none;
+    display: flex;
+    color: #018de7;
+    text-decoration: dashed underline #018de7;
+}
+
+.header__media-twitter{
+    margin-right: 10px;
+}
+
+.header__media-facebook{
+    margin-right: 10px;
+}
+
+.header__media-rss{
+    margin-right: 10px;
+}
+
+.header__media-youtube{
+    margin-right: 10px;
+}
+
+.header__menu-element{
+    padding-left: 10px;
+    padding-right: 10px;
+}
