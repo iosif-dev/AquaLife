@@ -13,7 +13,12 @@ a{
 .page {
     width: 80%;
     margin: 0 auto;
-  }
+    position: relative;
+    display: block;
+    min-width: 960px;
+    max-width: 1000px;
+    min-height: 700px;
+   }
   
 
 header{
@@ -21,11 +26,12 @@ header{
 }
 
 .header__menu{
-    margin-top: 100px;
+    margin-top: 10px;
     list-style-type: none;
     display: flex;
     color: #018de7;
     text-decoration: dashed underline #018de7;
+    text-align: center;
 }
 
 .header__media-twitter{
@@ -45,6 +51,7 @@ header{
 }
 
 .header__menu-element{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 150px;
 }
