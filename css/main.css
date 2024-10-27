@@ -8,6 +8,9 @@ a{
     display: flex;
     align-items: flex-end;
     float: right;
+    position: absolute;
+    margin-left: 1140px;
+    margin-top: 8px;
 }
 
 .page {
@@ -15,43 +18,70 @@ a{
     margin: 0 auto;
     position: relative;
     display: block;
-    min-width: 960px;
-    max-width: 1000px;
-    min-height: 700px;
+    width: 1600px;
    }
   
 
 header{
     font-family: "Merge Pro Bold"; 
+    font-size: 13pt;
+    font-weight: 100;
 }
 
 .header__menu{
-    margin-top: 10px;
     list-style-type: none;
     display: flex;
     color: #018de7;
     text-decoration: dashed underline #018de7;
     text-align: center;
+    margin-left: 255px;
 }
 
 .header__media-twitter{
-    margin-right: 10px;
+    padding-right: 15px;
 }
 
 .header__media-facebook{
-    margin-right: 10px;
+    padding-right: 15px;
 }
 
 .header__media-rss{
-    margin-right: 10px;
+    padding-right: 15px;
 }
 
 .header__media-youtube{
-    margin-right: 10px;
+    padding-right: 10px;
 }
 
-.header__menu-element{
-    padding-left: 20px;
+.header__menu-element1{
+    padding-top: 160px;
+    margin-left: -32px;
+}
+
+.header__menu-element2{
+    padding-left: 48px;
+    padding-top: 160px;
+}
+
+.header__menu-element3{
+    padding-left: 55px;
+    padding-right: 25px;
+    padding-top: 160px;
+}
+
+.header__menu-element4{
+    padding-left: 63px;
+    padding-top: 160px;
+}
+
+.header__menu-element5{
+    padding-left: 50px;
     padding-right: 20px;
-    padding-top: 150px;
+    padding-top: 160px;
+}
+
+.header__menu-element6{
+    padding-left: 24px;
+    padding-right: 20px;
+    padding-top: 160px;
 }
