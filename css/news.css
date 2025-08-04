@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Calibri;
+    src: url("../fonts/calibri.ttf");
+}
+
+@font-face {
+    font-family: Merge Pro Bold;
+    src: url("../fonts/Merge\ Pro\ Bold.ttf");
+}
+
 *,
 *::before,
 *::after {
@@ -7,7 +17,6 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Merge Pro Bold", sans-serif;
     width: 100%;
 }
 
@@ -15,7 +24,8 @@ body {
     position: relative;
     margin-top: 8px;
     margin-right: 90px;
-    margin-bottom: 160px;
+    margin-bottom: 15px;
+    font-family: "Merge Pro Bold", sans-serif;
 }
 
 .header__logo {
@@ -76,6 +86,7 @@ body {
 .page__header{
     font-family: Merge Pro Bold;
     text-transform: uppercase;
+    height: 0;
 }
 
 .header-menu {
@@ -113,12 +124,6 @@ body {
     margin-left: auto;
 }
 
-.limonady-item{
-    position: relative;
-    z-index: 1;
-
-}
-
 .header-social__image_twitter{
     height: 30px;
     padding-right: 15px;
@@ -143,49 +148,6 @@ body {
     padding-left: 61px;
 }
 
-.background{
-    position: absolute;
-    height: auto;
-    z-index: -1;
-}
-
-.bryzgi{
-    position: absolute;
-    top: 80;
-    left: 25%;
-    object-fit: cover;
-    z-index: 1;
-}
-
-.page__main_content{
-    position: relative;
-}
-
-.page__main_products{
-    display: flex;
-    gap: 100px;
-}
-
-.transfer{
-    position: absolute;
-    right: 0;
-}
-
-.lemonade-description {
-    font-family: "Merge Pro Bold", sans-serif;
-    position: absolute;
-    left: 0;
-    font-size: 17pt;
-    text-align: center;
-    color: #ffd61b;
-}
-  
-.lemonade-description h2 {
-    font-weight: bold;
-    font-size: 30pt;
-    margin: 0 0 5px 0;
-}
-
 .about-us{
     margin-left: 53px;
 }
@@ -199,16 +161,28 @@ body {
     padding-right: 45px;
 }
 
-.contact-us{
-
+.selected-box{
+    background-color: #09b100;
+    color: #ffffff;
 }
 
-.page__main_limonady {
-    margin: 0;
-    padding: 0;
-    background-image: url('../img/limonady/background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+.news-link{
+    color: #ffffff;
+    text-decoration: none;
 }
-  
+
+.page__navigation{
+    font-family: Calibri;
+    font-size: 14pt;
+    text-decoration: none #676668;
+}
+
+.navigation-link{
+    font-size: 14pt;
+    text-decoration: none;
+    color: #676668;
+    text-transform: none;
+}
+
+.page__main-news{
+}

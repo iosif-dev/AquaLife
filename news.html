@@ -4,28 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="https://db.onlinewebfonts.com/c/f51738896058a0d0859cbfc3bad9c10a?family=Merge+Pro+Bold" rel="stylesheet">
+    <link href="css/news.css" rel="stylesheet">
     <title>AquaLife - Новости</title>
 </head>
 <body>
-    <header>
-        <ul class="header__media">
-            <li><a href="https://x.com/?lang=ru"><img src="img/twitter.png" class="header__media-twitter"></a></li>
-            <li><a href="https://www.facebook.com/"><img src="img/facebook.png" class="header__media-facebook"></a></li>
-            <li><a href="https://rss.com/"><img src="img/rss.png" class="header__media-rss"></a></li>
-            <li><a href="https://www.youtube.com/"><img src="img/youtube.png" class="header__media-youtube"></a></li>
-        </ul>
-        <ul class="header__menu">
-            <li class="header__menu-element"><a href="./about-us.html">О НАС</a></li>
-            <li class="header__menu-element"><a href="./services.html">НАШИ УСЛУГИ</a></li>
-            <li class="header__menu-element"><a href="./catalog.html">КАТАЛОГ</a></li>
-            <li class="header__menu-element"><a href="./index.html"><img src="img/logo.png"></a></li>
-            <li class="header__menu-element"><a href="./action.html">АКЦИИ</a></li>
-            <li class="header__menu-element"><a href="./news.html">НОВОСТИ</a></li>
-            <li class="header__menu-element"><a href="./contact-us.html">КОНТАКТЫ</a></li>
-        </ul>
-    </header>
-    <h1>Ничего нового</h1>
+    <div class="page">
+        <div class="page__header">
+            <header class="header">
+                <div class="header__logo">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="img/socialmedia/logo.png" class="logo-frame">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__social">
+                    <ul class="header-social">
+                        <li class="header-social__item">
+                            <a href="#" class="header-social__link">
+                                <img src="./img/socialmedia/twitter.png" class="header-social__image header-social__image_twitter">
+                            </a>
+                        </li>
+                        <li class="header-social__item">
+                            <a href="#" class="header-social__link">
+                                <img src="./img/socialmedia/facebook.png" class="header-social__image header-social__image_facebook">
+                            </a>
+                        </li>
+                        <li class="header-social__item">
+                            <a href="#" class="header-social__link">
+                                <img src="./img/socialmedia/rss.png" class="header-social__image header-social__image_rss">
+                            </a>
+                        </li>
+                        <li class="header-social__item">
+                            <a href="#" class="header-social__link">
+                                <img src="./img/socialmedia/youtube.png" class="header-social__image header-social__image_youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__menu">
+                    <ul class="header-menu">
+                        <li class="header-menu__item about-us">
+                            <a class="header-menu__link" href="#">О нас</a>
+                        </li>
+                        <li class="header-menu__item services">
+                            <a class="header-menu__link" href="#">Наши услуги</a>
+                        </li>
+                        <li class="header-menu__item catalog">
+                            <a class="header-menu__link" href="#">Каталог</a>
+                        </li>
+                        <li class="header-menu__item promotions">
+                            <a class="header-menu__link" href="#">Акции</a>
+                        </li>
+                        <li class="header-menu__item news">
+                            <div class="selected-box">
+                                <a class="header-menu__link news-link" href="#">Новости</a>
+                            </div>
+                        </li>
+                        <li class="header-menu__item contact-us">
+                            <a class="header-menu__link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="page__main">
+                <div class="page__navigation">
+                    <a href="main.html" class="navigation-link">Главная</a>
+                    <img src="./img/news/drop.png">
+                    <a href="#" class="navigation-link">Внутренняя страница</a>
+                    <img src="./img/news/drop.png">
+                    <a href="#" class="navigation-link">Название страницы</a>
+                </div>
+                <img src="./img/news/underscore.png">
+                <div class="page__main-news">
+                    <img src="./img/news/background.png">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
