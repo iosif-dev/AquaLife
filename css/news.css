@@ -86,7 +86,7 @@ body {
 .page__header{
     font-family: Merge Pro Bold;
     text-transform: uppercase;
-    height: 0;
+    height: 220px;
 }
 
 .header-menu {
@@ -175,6 +175,8 @@ body {
     font-family: Calibri;
     font-size: 14pt;
     text-decoration: none #676668;
+    margin-top: 51px;
+    margin-left: 49px;
 }
 
 .navigation-link{
@@ -185,4 +187,165 @@ body {
 }
 
 .page__main-news{
+    font-family: Calibri;
+}
+
+.underscore{
+    margin-left: 156px;
+    width: 1000px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.news-gov{
+    margin-top: 37px;
+    margin-left: 52px;
+}
+
+.newsText-image{
+    margin-top: 48px;
+    margin-left: 73px;
+    scale: 1.22;
+}
+
+.gov-date{
+    margin: 0 auto;
+}
+
+.gov-title{
+    margin-top: 10px;
+    margin-left: 38px;
+    margin-bottom: 0;
+}
+
+.title-image{
+    scale: 1.22;
+}
+
+.gov-text{
+    font-size: 13pt;
+    margin-top: 8px;
+    margin-left: 0px;
+}
+
+.news-phone{
+    position: absolute;
+    right: 0;
+    margin-right: 180px;
+    margin-top: -24px;
+}
+
+img{
+    scale: 1.22;
+}
+
+.news-bottls{
+    float: left;
+    margin-left: 26px;
+    margin-right: 79px;
+}
+
+.news-water{
+    float: right;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.waterTitle-image{
+    padding-left: 48px;
+}
+
+.water-date{
+    margin-bottom: 0;
+}
+
+.water-title{
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.water-text{
+    margin-top: 6px;
+}
+
+.underscore1{
+    margin-left: 156px;
+    width: 1000px;
+    margin-top: 84px;
+}
+
+.newsVITTEL-phone{
+    position: absolute;
+    right: 0;
+    margin-right: 179px;
+    margin-top: -19px;
+}
+
+.news-VITTEL{
+    margin-left: 44px;
+    margin-top: 27px;
+}
+
+.VITTEL-title{
+    margin-left: 49px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.VITTEL-date{
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+
+.VITTEL-text{
+    margin-top: 6px;
+}
+
+.underscore2{
+    margin-left: 156px;
+    width: 1000px;
+    margin-top: 40px;
+}
+
+.news-saimre{
+    float: right;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.news-gift{
+    float: left;
+    margin-left: 71px;
+    margin-right: 73px;
+    margin-top: -13px;
+}
+
+.saimre-title{
+    margin-top: 0;
+}
+
+.saimreTitle-image{
+    margin-left: 53px;
+}
+
+.saimre-text{
+    margin-top: -16px;
+}
+
+.saimre-date{
+    margin-bottom: 12px;
+    margin-top: -6px;
+}
+
+.footer-links{
+    background-color: #00287B;
+    font-family: Merge Pro Bold;
+    color: #ffffff;
+    text-decoration: underline #ffffff;
+}
+
+.footer-copyrights{
+    background-color: #000C68;
+    font-family: Calibri;
+    color: #ffffff;
 }
